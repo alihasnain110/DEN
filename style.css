@@ -1,0 +1,85 @@
+ /* styling of my Personal profile websites  */
+
+ * {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+     background: linear-gradient(68deg, rgba(5, 147, 114, 0.87718837535014) 0%, rgba(9, 145, 114, 1) 16%, rgba(5, 147, 117, 0.938813025210084) 71%, rgba(30, 184, 71, 1) 100%);
+
+ }
+
+ .container {
+     color: white;
+     text-align: center;
+     padding: 2px;
+     text-decoration: underline;
+
+ }
+
+ .container:hover {
+     letter-spacing: 5px;
+     cursor: pointer;
+     color: aqua;
+
+ }
+
+ .profilecontent {
+     display: inline;
+     flex-wrap: wrap;
+     height: 500px;
+ }
+
+ .myhobby {
+     padding: 10px;
+     color: rgb(243, 247, 247);
+
+ }
+
+ .myhobby dl dt {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .myhobby dl dt:hover {
+     letter-spacing: 5px;
+     cursor: pointer;
+     color: aqua;
+     text-decoration: underline;
+ }
+
+ .myhobby dl dd {
+     text-align: center;
+     padding: 20px;
+ }
+
+ .profileimage {
+     flex-direction: row-reverse;
+     flex-wrap: wrap;
+     border-radius: 20%;
+     height: 200px;
+     width: 170px;
+ }
+
+ .profileimage:hover {
+     box-shadow: 0px 0px 5px rgb(30, 30, 31);
+     cursor: pointer;
+
+ }
+
+ .profilepara {
+     text-align: center;
+     padding: 10px;
+     color: white;
+ }
+
+ .link  a{
+     font-size: 30px;
+     display: inline;
+     flex-wrap: wrap;
+     padding: 5px;
+     color: black;
+ }
+
+ .link a:hover {
+     cursor: pointer;
+     color: white;
+ }
