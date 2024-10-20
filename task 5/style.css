@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-fluid {
+    background-image: url('image.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.container{
+    height: 600px;
+}
+.form {
+    margin-top: 130px;
+    padding: 30px;
+    background-color: rgba(112, 233, 233, 0.904);
+    box-shadow: 0px 5px 2px gainsboro;
+}
+
+#main {
+    width: 300px;
+} 
+
+#main h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
